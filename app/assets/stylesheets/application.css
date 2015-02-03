@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+body {
+ background: #F2F2F2;
+}
+
+#header {
+ padding-top:25pt;
+ text-align:center;
+}
+
+#section {
+ padding-top:25pt;
+ font-size:100%;
+ vertical-align: top;
+ width:100%;
+ text-align:center;
+}
+
+
+#section tr:nth-child(even) {
+background: #FFFFFF;
+}
